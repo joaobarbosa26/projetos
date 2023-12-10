@@ -39,4 +39,30 @@ body {
     margin-top: 10px;
   }
   
-  
+  /* Add/Update this in your style.css */
+.project-card {
+  position: relative;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+.project-card img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+.options {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+.options a, .options .description {
+  display: block;
+  margin-bottom: 10px;
+}
